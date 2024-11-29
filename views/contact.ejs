@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+
+<h1>Contact Me</h1>
+<form onsubmit="return sendMail()">
+  <input name="name" type="text" class="feedback-input" placeholder="Name" required />
+  <input name="email" type="email" class="feedback-input" placeholder="Email" required />
+  <textarea name="comment" class="feedback-input" placeholder="Message" required></textarea>
+  <input type="submit" value="SUBMIT" />
+</form>
+
+<script>
+  function sendMail(){
+    const name = document.querySelector('input[name="name"]').value;
+    const email = document.querySelector('input[name="email"]').value;
+    const comment = document.querySelector('textarea[name="comment"]').value;
+
+    const subject = `Contact Request from ${name}`;
+    const body = `Name: ${name}\nEmail: ${email}\nMessage: ${comment}`;
+    const mailtoLink = `mailto:pranavb8649@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+    return false;
+  }
+</script>
+
+<%- include("partials/footer.ejs") %>
