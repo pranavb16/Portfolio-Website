@@ -199,7 +199,13 @@ footer .social_icon li a {
 }
 footer .social_icon li a:hover {
   transform: translateY(-15px);
+  text-decoration: none;
   color: blue;
+}
+
+.social_icon li i.cib-leetcode {
+  font-size: 32px; /* Match the font size of ion-icons */
+  margin-bottom: 5px;
 }
 
 footer .menu li a {

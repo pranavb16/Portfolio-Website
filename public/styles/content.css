@@ -32,11 +32,6 @@ p {
   padding-bottom:15px;
 }
 
-/* .achieve-para{
-  /* padding-top: 20px; */
-  /* text-align: left; */
-/*}*/ 
-
 .profile {
   height: 180px;
   width: 180px;
@@ -44,27 +39,96 @@ p {
   border-radius: 50%;
 }
 
+.profile1 {
+  margin-top: 65px;
+  height: 225px ;
+  width: 500px;
+  object-fit:contain; 
+}
+
+.profile2 {
+  height: 350px ;
+  width: 450px;
+  margin-left: 13px;
+  object-fit:contain;
+}
+
 .item{
   padding-top: 25px;
   text-align: left;
 }
 
+.tskill-list{
+  padding-left: 18%;
+  float: left;
+}
+
+.p-item{
+  text-align: left;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.proj-head{
+  padding-left:50px;
+}
+
+.head-proj{
+  margin-top: 10px;
+  padding-right:10%;
+}
+
+.column {
+  flex: 50%;
+}
+
+.sold{
+  margin-top: 20px;
+}
+
+.snew{
+  margin-top: 40px;
+}
+
+.tskill-list1{ 
+  float: right;
+  padding-right: 33%;
+}
+
+.skill-head{
+  padding-left: 27%;
+  text-align: left;
+}
+
+.skill-head1{
+  padding-right: 34%;
+  text-align: right;
+}
+
+.item1{
+  padding-top: 25px;
+  text-align: justify;
+}
+
 form {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .feedback-input {
-  /* color: white; */
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
   border: 2px solid #3586ff;
   transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  width: 75%;
   box-sizing: border-box;
   outline: 0;
 }
@@ -80,15 +144,15 @@ textarea {
 }
 
 [type="submit"] {
-  width: 100%;
+  width: 75%;
   background: #3586ff;
   border-radius: 5px;
   border: 0;
   cursor: pointer;
   color: white;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   transition: all 0.3s;
   margin-top: -4px;
   font-weight: 700;

@@ -1,11 +1,59 @@
 <%-include("partials/header.ejs")%>
 
-<h1> My Projects </h1>
+<h1 class="proj-head"> My Projects </h1>
 
+<div class="row project-div">
+    <div class="column sold">
+    <h5 class="head-proj">Real-time Landcover Tracking</h5>
+    <ul>
+        <li class="p-item">
+        Implemented a Machine learning model that would track the
+        landcover and predict the change in the surrounding environment
+        over time such as deforestation, climatic change for understanding
+        land use and its patterns.
+        </li>
+        <li class="p-item">
+        Adopted U-Net Architecture for image segmentation and used
+        Python libraries Scikit-learn, TensorFlow to develop the model.
+        </li>
+        <li class="p-item">
+        The Front-end was designed by using HTML, CSS, Three.js and
+        flask was used for integrating the model with the website files.
+        Used Charts.js for representing the data in form of bar graphs
+        and histograms.
+        </li>
+    </ul>
+    </div>
+    <div class="column ">
+        <img class="profile1" src="images/PBL_Project_Photo.jpg" alt="Project_1_Photo">
+    </div>
+</div>
 
-
-
-
+<div class="row">
+    <div class="column snew">
+        <h5 class="head-proj">Flat Management System</h5>
+        <ul>
+            <li class="p-item">
+            Developed a web application that would help to manage and
+            organize information related to flats and apartments in the
+            nearby area.
+            </li>
+            <li class="p-item">
+            Used HTML, CSS and JavaScript for developing the front-end
+            and MongoDB for the database in order to store all the details
+            of the flat.
+            </li>
+            <li class="p-item">
+            Implemented feature for owners to provide details of their
+            flats and enter all the required information that could be made
+            available to users.
+            </li>
+        </ul>
+    </div>
+    <div class="column">
+        <img class="profile2" src="images/DBMS_Project_Photo.png" alt="Project_2_Photo">
+    </div>
+</div>
 
 
 <%-include("partials/footer.ejs")%>
