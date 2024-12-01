@@ -15,6 +15,11 @@ i {
   padding: 15px;
   color: #fff;
 }
+
+.navbar-logo:hover {
+  color: #fff;
+}
+
 .navbar-mainbg {
   background-color: #3586ff;
   padding: 0px;
